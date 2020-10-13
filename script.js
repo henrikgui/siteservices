@@ -59,7 +59,8 @@ inicializarSite = () => {
         <div class= "serviço-single2">
              <img src= "`+val.img+`" width="250" height="250" />
              <p>`+val.nome+`</p>
-             <a key = '`+val.id+`'' href="#"> Faça seu orçamento<a/>
+             <a href="https://api.whatsapp.com/send?phone=+5541995764941&text=Quero%20este%20serviço%20" class="btn btn-success">Solicitar serviço
+             </a>
         </div>
         
              `
